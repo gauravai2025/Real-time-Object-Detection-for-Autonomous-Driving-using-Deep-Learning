@@ -96,15 +96,7 @@ To execute the script you need to specify the following parameters:
 * ```--num_classes``` ```-nc``` (default: 13) amount of classes which are being predicted
 * ```--input``` ```-i``` path to your input image/video 
 * ```--output``` ```-o``` path to your output image/video (in case of video include .mp4 at the end)
-
-An example execution for images would be:
-
-    python3 YOLO_to_image.py -w /home/alen_smajic/Real-time-Object-Detection-for-Autonomous-Driving-using-Deep-Learning/YOLO/YOLO_bdd100k.pt -t 0.5 -ss 14 -nb 2 -nc 13 -i /home/alen_smajic/Real-time-Object-Detection-for-Autonomous-Driving-using-Deep-Learning/YOLO/Inference_YOLO/test.jpg -o /home/alen_smajic/Real-time-Object-Detection-for-Autonomous-Driving-using-Deep-Learning/YOLO/Inference_YOLO/output.png
-
-An example execution for videos would be:
-
-    python3 YOLO_to_video.py -w /home/alen_smajic/Real-time-Object-Detection-for-Autonomous-Driving-using-Deep-Learning/YOLO/YOLO_bdd100k.pt -t 0.5 -ss 14 -nb 2 -nc 13 -i /home/alen_smajic/Real-time-Object-Detection-for-Autonomous-Driving-using-Deep-Learning/YOLO/Inference_YOLO/test.mov -o /home/alen_smajic/Real-time-Object-Detection-for-Autonomous-Driving-using-Deep-Learning/YOLO/Inference_YOLO/output.mp4
-    
+  
 ### Faster R-CNN ###
 
 To use Faster R-CNN you have to configure the Tensorflow 2 object detection API.
