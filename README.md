@@ -5,8 +5,8 @@
 * Kumar Shahil
 * Raunak Bharadwaj
 * Gaurav Kumar
-*Avad Dhanraj
-*Sahil Nadkarni
+* Avad Dhanraj
+* Sahil Nadkarni
 * Rudra Gera
 
 ## Project Description ##
